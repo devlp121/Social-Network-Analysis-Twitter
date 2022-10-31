@@ -15,12 +15,19 @@ cyto.load_extra_layouts()
 app = Dash(__name__, external_stylesheets=[
            dbc.themes.BOOTSTRAP])
 
+VALID_USERNAME_PASSWORD_PAIRS = {
+    'hello': 'world'
+}
+
+auth = dash_auth.BasicAuth(
+    app,
+    VALID_USERNAME_PASSWORD_PAIRS
+)
 
 # Create server variable with Flask server object for use with gunicorn
 server = app.server
 
 main_attr = "worldcup"
-
 
 def dash_tbl(df):
     tbl = dash_table.DataTable(
@@ -43,6 +50,7 @@ def cyto_interaction(elements):
     )
 
     return fig
+
 
 
 def list_to_df(lst):
@@ -146,7 +154,7 @@ body_layout = dbc.Container(
                             },
                             style_cell={
                                 'textAlign': 'left',
-                            }),
+                                }),
                         dbc.Alert(id='tbl_in'),
                     ])
                 ), dbc.Col(

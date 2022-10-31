@@ -14,6 +14,7 @@ dash-table==5.0.0
 Flask==2.2.2
 Flask-Compress==1.13
 Flask-SeaSurf==1.1.1
+gunicorn==20.1.0
 idna==3.4
 igraph==0.10.2
 itsdangerous==2.1.2
