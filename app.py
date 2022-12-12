@@ -78,21 +78,7 @@ for topic_html in [
 
 
 navbar = dbc.NavbarSimple(
-    children=[
-        dbc.NavItem(
-            dbc.NavLink(
-                "Review",
-                href="",
-            )
-        ),
-        dbc.NavItem(
-            dbc.NavLink(
-                "Source Data",
-                href="",
-            )
-        ),
-    ],
-    brand="Vorel Report on Social Network Analysis",
+    brand="Report on Social Network Analysis",
     brand_href="#",
     color="dark",
     dark=True,
