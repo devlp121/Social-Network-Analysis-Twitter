@@ -23,11 +23,11 @@ Running the `app.py` script launches the Dash Plotly dashboard.
 
 ## Features
 
-![1](https://raw.githubusercontent.com/devlp121/Social-Network-Analysis-Twitter/blob/master/docs/sna.png)
+![1](https://raw.githubusercontent.com/devlp121/Social-Network-Analysis-Twitter/docs/sna.png)
 
-![1](https://raw.githubusercontent.com/devlp121/Social-Network-Analysis-Twitter/blob/master/docs/sna2.png)
+![1](https://raw.githubusercontent.com/devlp121/Social-Network-Analysis-Twitter/docs/sna2.png)
 
-![1](https://raw.githubusercontent.com/devlp121/Social-Network-Analysis-Twitter/blob/master/docs/sna3.png)
+![1](https://raw.githubusercontent.com/devlp121/Social-Network-Analysis-Twitter/docs/sna3.png)
 
-![1](https://raw.githubusercontent.com/devlp121/Social-Network-Analysis-Twitter/blob/master/docs/sna4.png)
+![1](https://raw.githubusercontent.com/devlp121/Social-Network-Analysis-Twitter/docs/sna4.png)
 
